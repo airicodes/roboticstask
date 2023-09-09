@@ -1,0 +1,27 @@
+[01m[K/home/a/Downloads/roboticstask/ros2_workspace/src/cpp_pubsub/src/publisher_member_function.cpp:36:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+   36 | }
+      |  [01;31m[K^[m[K
+[01m[K/home/a/Downloads/roboticstask/ros2_workspace/src/cpp_pubsub/src/publisher_member_function.cpp:29:1:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+   29 | [01;36m[K{[m[K
+      | [01;36m[K^[m[K
+[01m[K/home/a/Downloads/roboticstask/ros2_workspace/src/cpp_pubsub/src/publisher_member_function.cpp:[m[K In constructor ‘[01m[KMinimalPublisher::MinimalPublisher()[m[K’:
+[01m[K/home/a/Downloads/roboticstask/ros2_workspace/src/cpp_pubsub/src/publisher_member_function.cpp:32:28:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KMinimalPublisher[m[K’ does not have any field named ‘[01m[Kcount_[m[K’
+   32 |   : Node("cpp_publisher"), [01;31m[Kcount_[m[K(0)
+      |                            [01;31m[K^~~~~~[m[K
+[01m[K/home/a/Downloads/roboticstask/ros2_workspace/src/cpp_pubsub/src/publisher_member_function.cpp:33:4:[m[K [01;31m[Kerror: [m[K‘[01m[KlPublisher[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_publisher_t[m[K’?
+   33 |   {[01;31m[KlPublisher[m[K>());
+      |    [01;31m[K^~~~~~~~~~[m[K
+      |    [32m[Krcl_publisher_t[m[K
+[01m[K/home/a/Downloads/roboticstask/ros2_workspace/src/cpp_pubsub/src/publisher_member_function.cpp:33:16:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+   33 |   {lPublisher>([01;31m[K)[m[K);
+      |                [01;31m[K^[m[K
+[01m[K/home/a/Downloads/roboticstask/ros2_workspace/src/cpp_pubsub/src/publisher_member_function.cpp:35:10:[m[K [01;31m[Kerror: [m[Kreturning a value from a constructor
+   35 |   return [01;31m[K0[m[K;
+      |          [01;31m[K^[m[K
+[01m[K/home/a/Downloads/roboticstask/ros2_workspace/src/cpp_pubsub/src/publisher_member_function.cpp:[m[K At global scope:
+[01m[K/home/a/Downloads/roboticstask/ros2_workspace/src/cpp_pubsub/src/publisher_member_function.cpp:36:2:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id at end of input
+   36 | }
+      |  [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/publisher_member_function.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/talker.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
