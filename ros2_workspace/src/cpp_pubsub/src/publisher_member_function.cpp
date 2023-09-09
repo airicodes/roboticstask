@@ -39,9 +39,15 @@ public:
 private:
   void timer_callback()
   {
+    std::string inputString;
+    std::cout << "Give input: ";
+    std::getline(std::cin, inputString);
     auto message = std_msgs::msg::String();
-    message.data = "Hello, Python! Can you hear me? " + std::to_string(count_++);
+    message.data = inputString;
     RCLCPP_INFO(this->get_logger(), "Sending to python.. '%s'", message.data.c_str());
+    if (message.data.empty()) {
+      return;
+    }
     publisher_->publish(message);
   }
   rclcpp::TimerBase::SharedPtr timer_;

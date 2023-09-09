@@ -1,0 +1,15 @@
+[0.015s] Invoking command in '/home/a/Downloads/roboticstask/ros2_workspace/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/a/Downloads/roboticstask/ros2_workspace/build/cpp_pubsub -- -j4 -l4
+[0.066s] [35m[1mConsolidate compiler generated dependencies of target talker[0m
+[0.089s] [ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[2.758s] [01m[K/home/a/Downloads/roboticstask/ros2_workspace/src/cpp_pubsub/src/publisher_member_function.cpp:[m[K In constructor ‘[01m[KMinimalPublisher::MinimalPublisher()[m[K’:
+[2.758s] [01m[K/home/a/Downloads/roboticstask/ros2_workspace/src/cpp_pubsub/src/publisher_member_function.cpp:32:28:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KMinimalPublisher[m[K’ does not have any field named ‘[01m[Kcount_[m[K’
+[2.758s]    32 |   : Node("cpp_publisher"), [01;31m[Kcount_[m[K(0)
+[2.758s]       |                            [01;31m[K^~~~~~[m[K
+[2.772s] [01m[K/home/a/Downloads/roboticstask/ros2_workspace/src/cpp_pubsub/src/publisher_member_function.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[2.773s] [01m[K/home/a/Downloads/roboticstask/ros2_workspace/src/cpp_pubsub/src/publisher_member_function.cpp:57:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kros[m[K’ has not been declared
+[2.773s]    57 |   [01;31m[Kros[m[K::spinOnce();
+[2.773s]       |   [01;31m[K^~~[m[K
+[3.657s] gmake[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/publisher_member_function.cpp.o] Error 1
+[3.657s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/talker.dir/all] Error 2
+[3.657s] gmake: *** [Makefile:146: all] Error 2
+[3.659s] Invoked command in '/home/a/Downloads/roboticstask/ros2_workspace/build/cpp_pubsub' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/a/Downloads/roboticstask/ros2_workspace/build/cpp_pubsub -- -j4 -l4

@@ -1,0 +1,15 @@
+[0.016s] Invoking command in '/home/a/Downloads/roboticstask/ros2_workspace/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/a/Downloads/roboticstask/ros2_workspace/build/cpp_pubsub -- -j4 -l4
+[0.062s] [35m[1mConsolidate compiler generated dependencies of target talker[0m
+[0.088s] [ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[2.579s] [01m[K/home/a/Downloads/roboticstask/ros2_workspace/src/cpp_pubsub/src/publisher_member_function.cpp:[m[K In constructor ‘[01m[KMinimalPublisher::MinimalPublisher()[m[K’:
+[2.579s] [01m[K/home/a/Downloads/roboticstask/ros2_workspace/src/cpp_pubsub/src/publisher_member_function.cpp:33:3:[m[K [01;31m[Kerror: [m[Kexpected identifier before ‘[01m[K{[m[K’ token
+[2.579s]    33 |   [01;31m[K{[m[K
+[2.579s]       |   [01;31m[K^[m[K
+[2.581s] [01m[K/home/a/Downloads/roboticstask/ros2_workspace/src/cpp_pubsub/src/publisher_member_function.cpp:36:44:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer_callback[m[K’ is not a member of ‘[01m[KMinimalPublisher[m[K’
+[2.581s]    36 |     5000ms, std::bind(&MinimalPublisher::[01;31m[Ktimer_callback[m[K, this));
+[2.581s]       |                                          [01;31m[K^~~~~~~~~~~~~~[m[K
+[2.581s] 
+[3.409s] gmake[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/publisher_member_function.cpp.o] Error 1
+[3.410s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/talker.dir/all] Error 2
+[3.410s] gmake: *** [Makefile:146: all] Error 2
+[3.412s] Invoked command in '/home/a/Downloads/roboticstask/ros2_workspace/build/cpp_pubsub' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/a/Downloads/roboticstask/ros2_workspace/build/cpp_pubsub -- -j4 -l4

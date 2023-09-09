@@ -1,0 +1,11 @@
+[01m[K/home/a/Downloads/roboticstask/ros2_workspace/src/cpp_pubsub/src/publisher_member_function.cpp:[m[K In constructor ‘[01m[KMinimalPublisher::MinimalPublisher()[m[K’:
+[01m[K/home/a/Downloads/roboticstask/ros2_workspace/src/cpp_pubsub/src/publisher_member_function.cpp:33:3:[m[K [01;31m[Kerror: [m[Kexpected identifier before ‘[01m[K{[m[K’ token
+   33 |   [01;31m[K{[m[K
+      |   [01;31m[K^[m[K
+[01m[K/home/a/Downloads/roboticstask/ros2_workspace/src/cpp_pubsub/src/publisher_member_function.cpp:36:44:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer_callback[m[K’ is not a member of ‘[01m[KMinimalPublisher[m[K’
+   36 |     5000ms, std::bind(&MinimalPublisher::[01;31m[Ktimer_callback[m[K, this));
+      |                                          [01;31m[K^~~~~~~~~~~~~~[m[K
+
+gmake[2]: *** [CMakeFiles/talker.dir/build.make:76: CMakeFiles/talker.dir/src/publisher_member_function.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/talker.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

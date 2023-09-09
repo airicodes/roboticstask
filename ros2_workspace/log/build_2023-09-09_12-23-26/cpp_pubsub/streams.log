@@ -1,0 +1,26 @@
+[0.018s] Invoking command in '/home/a/Downloads/roboticstask/ros2_workspace/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/a/Downloads/roboticstask/ros2_workspace/build/cpp_pubsub -- -j4 -l4
+[0.070s] [35m[1mConsolidate compiler generated dependencies of target talker[0m
+[0.091s] [ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[5.503s] [100%] [32m[1mLinking CXX executable talker[0m
+[5.728s] [100%] Built target talker
+[5.746s] Invoked command in '/home/a/Downloads/roboticstask/ros2_workspace/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/a/Downloads/roboticstask/ros2_workspace/build/cpp_pubsub -- -j4 -l4
+[5.791s] Invoking command in '/home/a/Downloads/roboticstask/ros2_workspace/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/a/Downloads/roboticstask/ros2_workspace/build/cpp_pubsub
+[5.800s] -- Install configuration: ""
+[5.800s] -- Installing: /home/a/Downloads/roboticstask/ros2_workspace/install/cpp_pubsub/lib/cpp_pubsub/talker
+[5.803s] -- Set runtime path of "/home/a/Downloads/roboticstask/ros2_workspace/install/cpp_pubsub/lib/cpp_pubsub/talker" to ""
+[5.803s] -- Up-to-date: /home/a/Downloads/roboticstask/ros2_workspace/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub
+[5.803s] -- Up-to-date: /home/a/Downloads/roboticstask/ros2_workspace/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub
+[5.804s] -- Up-to-date: /home/a/Downloads/roboticstask/ros2_workspace/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh
+[5.804s] -- Up-to-date: /home/a/Downloads/roboticstask/ros2_workspace/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv
+[5.804s] -- Up-to-date: /home/a/Downloads/roboticstask/ros2_workspace/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh
+[5.805s] -- Up-to-date: /home/a/Downloads/roboticstask/ros2_workspace/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv
+[5.805s] -- Up-to-date: /home/a/Downloads/roboticstask/ros2_workspace/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash
+[5.805s] -- Up-to-date: /home/a/Downloads/roboticstask/ros2_workspace/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh
+[5.805s] -- Up-to-date: /home/a/Downloads/roboticstask/ros2_workspace/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh
+[5.805s] -- Up-to-date: /home/a/Downloads/roboticstask/ros2_workspace/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv
+[5.805s] -- Installing: /home/a/Downloads/roboticstask/ros2_workspace/install/cpp_pubsub/share/cpp_pubsub/package.dsv
+[5.805s] -- Up-to-date: /home/a/Downloads/roboticstask/ros2_workspace/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub
+[5.805s] -- Up-to-date: /home/a/Downloads/roboticstask/ros2_workspace/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake
+[5.805s] -- Up-to-date: /home/a/Downloads/roboticstask/ros2_workspace/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake
+[5.805s] -- Up-to-date: /home/a/Downloads/roboticstask/ros2_workspace/install/cpp_pubsub/share/cpp_pubsub/package.xml
+[5.807s] Invoked command in '/home/a/Downloads/roboticstask/ros2_workspace/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/a/Downloads/roboticstask/ros2_workspace/build/cpp_pubsub
